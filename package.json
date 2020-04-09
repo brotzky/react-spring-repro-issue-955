@@ -1,0 +1,34 @@
+{
+  "name": "spring",
+  "version": "0.0.1",
+  "license": "Unlicensed",
+  "private": true,
+  "engines": {
+    "node": "10"
+  },
+  "workspaces": {
+    "nohoist": [
+      "**/babel-loader",
+      "**/webpack"
+    ],
+    "packages": [
+      "client"
+    ]
+  },
+  "scripts": {
+    "dev:client": "yarn --cwd ./client dev"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "concurrently": "^5.0.0",
+    "dotenv-cli": "^2.0.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "jest": "^24.9.0",
+    "prettier": "1.19.1",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}

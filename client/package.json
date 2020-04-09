@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "react-scripts start"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "react-spring": "9.0.0-canary.808.17.55c5691"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-emotion": "^10.0.19",
+    "deep-extend": "^0.6.0",
+    "depcheck": "^0.8.0",
+    "typescript": "^3.7.2"
+  },
+  "peerDependencies": {
+    "client": "*"
+  }
+}

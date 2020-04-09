@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "noEmit": true
+  },
+  "include": ["src", "../common/src", "../common/build"],
+  "exclude": ["node_modules", ".storybook", "public"]
+}

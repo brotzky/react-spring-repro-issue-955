@@ -1,0 +1,70 @@
+# system files
+.DS_Store
+*.cache
+.npmrc
+
+# Install files
+package-lock.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Compiled files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+dump.rdb
+cloudsql
+
+# Build directories
+node_modules
+build
+dist
+storybook-static
+!specification/build
+!tradingview/**/dist
+/.pnp
+.pnp.js
+.terraform/.terraform
+
+# Dependency libraries
+cloud-builders-community
+
+# Environments
+env
+venv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+client/.env
+
+
+# testing
+/coverage
+
+# credentials
+.firebase/credentials.json
+
+# config
+client/src/config/local.js
+
+functions/config/local.js
+functions/config/production.js
+
+livesync/config/local.js
+livesync/config/production.js
+
+server/config/local.js
+server/config/production.js
+
+.deployment/ssl/private.key
+
+cloud_sql_proxy
+
+kubectl
